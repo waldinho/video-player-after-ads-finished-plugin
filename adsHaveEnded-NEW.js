@@ -1,6 +1,4 @@
-var registerPlugin = videojs.registerPlugin || videojs.plugin;
-
-registerPlugin('adsHaveEnded', function(options) {
+videojs.plugin('adsHaveEnded', function(options) {
     var player = this;
 
     function showOnAddEnd(options) {
