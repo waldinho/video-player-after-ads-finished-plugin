@@ -1,4 +1,4 @@
-videojs.plugin('adsHaveEnded', function(options) {
+videojs.registerPlugin('adsHaveEnded', function(options) {
     var player = this;
 
     function showOnAddEnd(options) {
